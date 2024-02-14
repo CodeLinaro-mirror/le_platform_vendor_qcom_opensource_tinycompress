@@ -623,7 +623,7 @@ int compress_wait(struct compress *compress, int timeout_ms)
 }
 
 int compress_set_codec_params(struct compress *compress,
-		struct snd_codec *codec) {
+	struct snd_codec *codec) {
 	struct snd_compr_params params;
 
 	if (!is_compress_running(compress))
